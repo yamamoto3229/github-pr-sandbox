@@ -1,0 +1,18 @@
+import random
+
+ohira_list = ["O", "H", "I", "R", "A"]
+
+roulette = random.choice(ohira_list) + random.choice(ohira_list) + random.choice(ohira_list) + random.choice(
+    ohira_list) + random.choice(ohira_list)
+OHIRA = "OHIRA"
+ans_count = 0
+for i in range(5):
+    if roulette[i] == OHIRA[i]:
+        ans_count += 1
+if ans_count == 5:
+    print(roulette, "おめでとうございますOHIRAルーレット大成功！！")
+elif ans_count >= 4:
+    print(roulette, "惜しい！！")
+
+else:
+    print(roulette, "残念。またチャレンジしてね。")
