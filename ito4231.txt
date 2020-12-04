@@ -1,0 +1,2 @@
+I used command "vim" to create this file.
+It is useful to use the combination "vim" and "cat".
