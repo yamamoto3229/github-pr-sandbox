@@ -1,0 +1,35 @@
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git remote -v
+origin  https://github.com/yahata1311/github-pr-sandbox.git (fetch)
+origin  https://github.com/yahata1311/github-pr-sandbox.git (push)
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git branch
+* main
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git branch
+* main
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git branch pr-yahata1311
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git branch
+* main
+  pr-yahata1311
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (main)
+$ git switch pr-yahata1311
+Switched to branch 'pr-yahata1311'
+
+Admin@VAIOpro11 MINGW64 ~/PycharmProjects/github-pr-sandbox (pr-yahata1311)
+$ git branch
+  main
+* pr-yahata1311
+
+ﾃｷｽﾄﾌｧｲﾙ作成
+echo ﾃｷｽﾄ作成　＞　yahata1311.txt の意味
+echoから＞までの文字（ﾃｷｽﾄ作成）をyahata1311.txtの中に入れ込める。
+
+
